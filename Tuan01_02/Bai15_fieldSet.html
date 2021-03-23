@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div>
+        <form>
+            <fieldset>
+                <legend>YOur message:</legend>
+                <table>
+                    <tr>
+                        <td><label for="emailTo">To</label></td>
+                        <td><input type="text" name="txtTo" readonly="readonly" id="emailTo" value="Example Cafe"/></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Your email</label></td>
+                        <td><input type="text" name="txtName" id="emailForm" size="20" tabindex="1" maxlength="250"/></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Message</label></td>
+                        <td><textarea name="txtBody" id="emailBody" cols="50" rows="20" tabindex="2"></textarea></td>
+                    </tr>
+                </table>
+            </fieldset>
+               
+            <fieldset>
+                <legend>How you found us</legend>
+                <table>
+                    <tr>
+                        <td><label for="listen">How did you hear of us</label></td>
+                        <td>
+                            <select id="listen" name="listen">
+                                <option>Google</option>
+                                <option>Facebook</option>
+                                <option>Message</option>
+                                <option>Zalo</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="newsletter">Newsletter</label></td>
+                        <td><input type="checkbox" name="newsletter" id="newsletter"  /> Ensure his box is checked if you woud like to receive email updates</td>
+                    </tr>
+                </table>
+            </fieldset>
+            <input type="submit" value="Send message" />
+        </form>
+    </div>
+</body>
+</html>
